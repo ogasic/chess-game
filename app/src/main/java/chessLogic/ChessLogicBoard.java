@@ -38,7 +38,7 @@ public class ChessLogicBoard implements ChessGameLogic {
 
     public ChessLogicBoard() {
 
-
+        //every piece gets a reference to the board
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 if (logicPieces[i][j] != null){
